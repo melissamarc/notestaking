@@ -1,20 +1,20 @@
 .topbar {
     background-color: transparent;
     width: 100%;
-    margin-left: 38vh;
-    height: 7vh;
+    margin-left: 28vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content:  space-between;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
-
+    border-bottom: 1px solid rgba(102, 102, 102, 0.172);
 }
 
 .title {
     font-size: 3vh;
     font-weight: bold;
-    margin-top: 6vh;
+  
 }
 
 
@@ -36,8 +36,8 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin-top: 4vh;
-    margin-right: 40vh;
+
+    margin-right: 32vh;
     transition: background-color 0.3s ease-in-out;
   }
   

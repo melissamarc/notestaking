@@ -1,0 +1,48 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 7vh;
+    height: 7vh;
+    margin-left: 3vh;
+}
+.links-section {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.links {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 5vh;
+    gap: 2vh;
+    
+}
+
+.login {
+    width: 18vh;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: plum;
+    color: black;
+    border: 1px solid black;
+    border-radius: 1.5vh;
+}
